@@ -39,6 +39,7 @@ function displayServices(service) {
   const div = document.createElement("div");
   div.classList.add("col-12");
   div.classList.add("col-md-6");
+  div.classList.add("col-lg-4");
   div.innerHTML = `<div class="card my-3 mx-auto" style="max-width: 600px;">
       <div class="row g-0">
         <div class="col-12">
